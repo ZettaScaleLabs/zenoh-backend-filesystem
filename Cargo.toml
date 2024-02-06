@@ -43,33 +43,40 @@ uhlc = "0.5.2"
 walkdir = "2.3.2"
 
 [dependencies.zenoh]
-git = "https://github.com/eclipse-zenoh/zenoh"
-branch = "master"
+git = "https://github.com/ZettaScaleLabs/zenoh-staging.git"
+branch = "release-1.0.0-pre.3621120596722679"
 features = [ "unstable" ]
+version = "1.0.0-pre.3621120596722679"
 
 [dependencies.zenoh-codec]
-git = "https://github.com/eclipse-zenoh/zenoh"
-branch = "master"
+git = "https://github.com/ZettaScaleLabs/zenoh-staging.git"
+branch = "release-1.0.0-pre.3621120596722679"
+version = "1.0.0-pre.3621120596722679"
 
 [dependencies.zenoh-collections]
-git = "https://github.com/eclipse-zenoh/zenoh"
-branch = "master"
+git = "https://github.com/ZettaScaleLabs/zenoh-staging.git"
+branch = "release-1.0.0-pre.3621120596722679"
+version = "1.0.0-pre.3621120596722679"
 
 [dependencies.zenoh-core]
-git = "https://github.com/eclipse-zenoh/zenoh"
-branch = "master"
+git = "https://github.com/ZettaScaleLabs/zenoh-staging.git"
+branch = "release-1.0.0-pre.3621120596722679"
+version = "1.0.0-pre.3621120596722679"
 
 [dependencies.zenoh-protocol]
-git = "https://github.com/eclipse-zenoh/zenoh"
-branch = "master"
+git = "https://github.com/ZettaScaleLabs/zenoh-staging.git"
+branch = "release-1.0.0-pre.3621120596722679"
+version = "1.0.0-pre.3621120596722679"
 
 [dependencies.zenoh-util]
-git = "https://github.com/eclipse-zenoh/zenoh"
-branch = "master"
+git = "https://github.com/ZettaScaleLabs/zenoh-staging.git"
+branch = "release-1.0.0-pre.3621120596722679"
+version = "1.0.0-pre.3621120596722679"
 
 [dependencies.zenoh_backend_traits]
-git = "https://github.com/eclipse-zenoh/zenoh"
-branch = "master"
+git = "https://github.com/ZettaScaleLabs/zenoh-staging.git"
+branch = "release-1.0.0-pre.3621120596722679"
+version = "1.0.0-pre.3621120596722679"
 
 [build-dependencies]
 rustc_version = "0.4.0"
